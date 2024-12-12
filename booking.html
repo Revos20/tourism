@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - BONANZA TOUR & TRAVEL</title>
+    <link rel="stylesheet" href="stylestourism.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li> <!-- Contact Us Page Link -->
+				<li><a href="home.html">Home</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="payment.html">Payment</a></li>
+            </ul>
+        </nav>
+        <h1>Book Your Trip</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Booking Details</h2>
+            <form action="payment.html">
+                <label for="destination">Choose Destination:</label>
+                <select id="destination" name="destination">
+                    <option value="tropical-beach">Masai Mara</option>
+                    <option value="mountain-retreat">Diani Beach</option>
+                    <option value="historic-city">Lamu Town</option>
+                </select>
+
+                <label for="date">Travel Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" required>
+
+                <input type="submit" value="Proceed to Payment">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore BONANZA TOUR & TRAVEL. All rights reserved.</p>
+    </footer>
+</body>
+</html>
